@@ -1,0 +1,378 @@
+{
+	"pages": [
+		
+		{
+		    "path" : "pages/multi_login_v2",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"disableScroll": false
+		    }
+		    
+		},
+		
+		
+		{
+		    "path" : "pages/starter",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				"disableScroll": false
+		    }
+		    
+		},
+		
+		
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom",
+				"disableScroll": false
+			}
+		},
+		
+		{
+		    "path" : "pages/multi_login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "盘口",
+		        "enablePullDownRefresh": false
+
+		    }
+		    
+		},
+		
+		
+		{
+			"path": "pages/index/plusScan/index",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/bluetooth/index",
+			"style": {
+				// "navigationBarTitleText": "蓝牙打印机设备列表",
+				"navigationBarTitleText": "%index.bluetooth-settings%",
+				"enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+			}
+		},//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "%index.title%",
+				"navigationStyle": "custom"
+				// "navigationBarBackgroundColor":"#D4ACF3",
+				// "app-plus": {
+				// 	"bounce": "none",
+				// 	"titleAlign":"center",
+				// 	"titleNView": {
+				// 		"titleText":"会员：999 可用：0",
+				// 		"titleColor": "#8641A7",
+				// 		"autoBackButton":false,
+				// 		"buttons": [ 
+				// 			{
+				// 				"text": "更多", 
+				// 				"fontSize":"16",
+				// 				"float": "right",
+				// 				"color":"white"
+				// 			}						
+				// 		]					
+				// 	}
+				// }
+			}
+		}, {
+			"path": "pages/component/component",
+			"style": {
+				"navigationBarTitleText": "%index.component%",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/api/api",
+			"style": {
+				"navigationBarTitleText": "%index.api%",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/schema/schema",
+			"style": {
+				"navigationBarTitleText": "%index.schema%",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/index/setup",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.language-settings%",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/kuaida",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/mingxi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/logs",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/bills",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/ziliao",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        },{
+            "path" : "pages/index/kuaida/fangda",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%fangda.stopCode%",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/kuaixuan",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }           
+        }
+        ,{
+            "path" : "pages/index/kuaixuan/code_create",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%kuaixuan.createCode%",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }           
+        }
+        ,{
+            "path" : "pages/index/more/remind",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.special-reminder%",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }            
+        }
+        ,{
+            "path" : "pages/index/more/lotteryNumber",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.lottery-number%",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }           
+        }
+        ,{
+            "path" : "pages/index/more/rule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.rule-description%",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }          
+        }
+        ,{
+            "path" : "pages/index/more/quanjie",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.full-description%",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/more/updPassword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "%index.change-password%",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/more/bluetooth",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "蓝牙打印机设备列表",
+				"navigationBarTitleText": "%index.bluetooth-settings%",
+                "enablePullDownRefresh": false,
+				"navigationStyle":"custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/kuaida/screencut",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        
+        
+        ,{
+            "path" : "pages/index/draw/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/commons/pdf-viewer",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/external_view",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/index/mingxi/bpCodes",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/kuaixuan-v2",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }           
+        }
+		,{
+		    "path" : "pages/index/kuaixuan-fast",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "快捷下注",
+		        "enablePullDownRefresh": false
+		    }           
+		}
+        
+        ,{
+            "path" : "pages/set_url",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/start/setPwd",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+    ],
+	// "tabBar": {
+	// 	"color": "#7A7E83",
+	// 	"selectedColor": "#007AFF",
+	// 	"borderStyle": "black",
+	// 	"backgroundColor": "#F8F8F8",
+	// 	"height": "50px",
+	// 	"fontSize": "10px",
+	// 	"iconWidth": "24px",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/mingxi",
+	// 			"text": "明细"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/index/kuaixuan",
+	// 			"text": "快选"
+	// 		}, {
+	// 			"pagePath": "pages/index/ziliao",
+	// 			"text": "资料"
+	// 			}
+	// 		// , {
+	// 		// 	"pagePath": "pages/index/bills",
+	// 		// 	"text": "日志"
+	// 		// }
+	// 	]
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"softinputNavBar": "none"
+		}
+	}
+}
